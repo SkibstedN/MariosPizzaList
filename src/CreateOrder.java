@@ -1,5 +1,7 @@
 //package com.company;
 
+//denne kommentar er også en Git øvelse
+
 public class CreateOrder {
     private int pizzaNumber;
     private String pizzaName;
