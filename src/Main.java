@@ -1,5 +1,7 @@
 package com.company;
 
+//denne kommentar er en test for at opdatere rep. på Git
+
 import java.util.Scanner;
 
 public class Main {
