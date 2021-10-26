@@ -17,9 +17,9 @@ public class Main {
         int answer = 6;
         System.out.println("\t\t\t\t\t***** Velkommen til Mario's Pizzabar! *****\nMed dette program får du en masse muligheder som simplificer Mario's arbejde");
 
-        orders[0] = new CreateOrder(1, "Nummer et", 11, 12);
+        /*orders[0] = new CreateOrder(1, "Nummer et", 11, 12);
         orders[1] = new CreateOrder(2, "nummer to", 11, 12);
-        orders[2] = new CreateOrder(3, "nummer tre", 11, 12);
+        orders[2] = new CreateOrder(3, "nummer tre", 11, 12);*/
 
         while (answer != 5){
 
@@ -76,7 +76,7 @@ public class Main {
 
         for (int i = 0; i < orderList.length; i++){
             if (orderList[i] == null){
-                orderList[i] = new CreateOrder(pizzaNumber, pizzaName, orderTime, pickupTime);
+                orderList[i] = new CreateOrder(pizzaNumber, orderTime, pickupTime);
                 break;
             }
 

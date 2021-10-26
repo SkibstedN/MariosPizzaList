@@ -5,19 +5,19 @@ package com.company;
 
 public class CreateOrder {
     private int pizzaNumber;
-    private String pizzaName;
+    //private String pizzaName;
     private double orderTime;
     private double orderPickUp;
 
-    public CreateOrder (int pizzaNumber, String pizzaName, double orderTime, double orderPickUp){
+    public CreateOrder (int pizzaNumber, double orderTime, double orderPickUp){
         this.pizzaNumber = pizzaNumber;
-        this.pizzaName = pizzaName;
+        //this.pizzaName = pizzaName;
         this.orderTime = orderTime;
         this.orderPickUp = orderPickUp;
 
     }
     public String toString(){
-        return ("Pizza number: " + pizzaNumber +  "\nPizza name: "+ pizzaName + "\nOrderTime: " + orderTime + "\nPickup time" +orderPickUp);
+        return ("Pizza number: " + pizzaNumber + "\nOrderTime: " + orderTime + "\nPickup time" +orderPickUp);
     }
 
     public int getPizzaNumber() {
@@ -25,16 +25,17 @@ public class CreateOrder {
     }
 
     public void setPizzaNumber(int pizzaNumber) {
+
         this.pizzaNumber = pizzaNumber;
     }
 
-    public String getPizzaName() {
+    /*public String getPizzaName() {
         return pizzaName;
     }
 
     public void setPizzaName(String pizzaName) {
         this.pizzaName = pizzaName;
-    }
+    }*/
 
     public double getOrderTime() {
         return orderTime;
