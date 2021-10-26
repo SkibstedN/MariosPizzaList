@@ -3,6 +3,8 @@ package com.company;
 //denne kommentar er en test for at opdatere rep. på Git
 // Kommentar er modtaget og sendt tilbage til GITHUB, part 2.
 
+// Kommentar nr 3
+
 import java.util.Scanner;
 
 public class Main {
@@ -19,7 +21,7 @@ public class Main {
 
         while (answer != 5){
 
-            System.out.println("Enter \n\n1 : to place an order \n2 : to se the current orderlist \n3 : to delete an order from the list \n4 :1 to se the Menu card \n5 : to shut down ");
+            System.out.println("Enter \n\n1 : to place an order \n2 : to se the current orderlist \n3 : to delete an order from the list \n4 : to se the Menu card \n5 : to shut down ");
             answer = console.nextInt();
 
             switch (answer){
