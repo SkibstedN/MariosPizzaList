@@ -4,6 +4,8 @@ package com.company;
 // Kommentar er modtaget og sendt tilbage til GITHUB, part 2.
 
 // Kommentar nr 3
+//Mohammad tester GitHub commit/push function
+
 
 import java.util.Scanner;
 
