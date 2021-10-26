@@ -1,6 +1,7 @@
 //package com.company;
 
 //denne kommentar er også en Git øvelse
+// Kommentar er modtaget og smider til GITHUB igen
 
 public class CreateOrder {
     private int pizzaNumber;
