@@ -1,6 +1,7 @@
 package com.company;
 
 //denne kommentar er en test for at opdatere rep. på Git
+// Kommentar er modtaget og sendt tilbage til GITHUB, part 2.
 
 import java.util.Scanner;
 
